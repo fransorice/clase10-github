@@ -14,7 +14,7 @@ body {
     justify-content: space-between;
     align-items: center;
     background-color: #111111;
-    height: 90px;
+    /* height: 130px; */
     position: fixed;
     width: 100%;
     top: 0;
@@ -48,7 +48,7 @@ body {
 
 .navbar-ul a {
     background-color: #111111;
-    padding: 36px;
+    padding: 30px;
     transition-duration: 0.5s;
     transition-property: background, color;
     border-radius: 7px;
@@ -57,10 +57,11 @@ body {
 .navbar-ul a:hover {
     background-color: rgba(0, 0, 0, 0.3);
     border-radius: 7px;
+    font-weight: bold;
 }
 
 article {
-    margin-top: 90px;
+    margin-top: 75px;
 }
 
 #article_productos {
@@ -244,24 +245,18 @@ footer {
     margin-bottom: 6px;
 }
 
-.container {  display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 0.001fr 1fr 1fr;
-    grid-template-areas:
-        "header header header"
-        "main main main"
-        "main main main"
-        "footer footer footer";
-}
-
-header {
-    grid-area: header;
-}
-
-main {
-    grid-area: main;
-}
-
-footer {
-    grid-area: footer;
-}
+/* RESPONSIVE DESIGN FROM 1330PX TO 1090PX */
+@media (max-width: 1330px) {
+        .navbar {
+            flex-direction: column;
+        }
+        .navbar img {
+            margin-left: 0px;
+        }
+        article {
+            margin-top: 140px;
+        }
+        #article_productos {
+            margin-top: 150px;
+        }
+    }
