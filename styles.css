@@ -7,65 +7,25 @@ body {
     font-family: 'Josefin Sans', sans-serif;
 }
 
-.navbar {
-    display: flex;
-    /*flex-direction: row;*/
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #111111;
-    /* height: 130px; */
-    position: fixed;
-    width: 100%;
-    top: 0;
-    z-index: 1000;
-    border-bottom: solid 2px #D8D0C1;
-}
-
-.navbar li {
-    list-style: none;
-    display: inline-block;
-    margin: 30px;
-}
-
-.navbar li a {
-    text-decoration: none;
-    color: #CCDAD1;
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 17px;
-}
-
-.navbar h1 {
-    color: #CCDAD1;
-    margin-left: 100px;
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 30px;
-}
-
-.navbar img {
-    margin-left: 30px;
-}
-
-.navbar-ul a {
-    background-color: #111111;
-    padding: 30px;
-    transition-duration: 0.3s;
-    transition-property: background, color;
-    border-radius: 7px;
-}
-
-.navbar-ul a:hover {
-    background-color: rgba(0, 0, 0, 0.3);
-    border-radius: 7px;
-    font-weight: bold;
-}
-
 article {
-    margin-top: 75px;
+    margin-top: 87px;
 }
 
-#article_productos {
-    margin-top: 95px;
+.bg-dark {
+    background: #111111 !important;
+}
+
+.navbar ul li a {
+    color: white;
+}
+
+.navbar ul li a:hover {
+    color: rgb(138, 138, 138) !important;
+}
+
+.dropdown-menu {
+    background: #111111;
+    border: none;
 }
 
 .banner {
@@ -148,10 +108,21 @@ article {
     animation: cursor .8s infinite;
 }
 
+.paragraphWhoWeAre__p {
+    max-width: 75ch;
+    text-align: center;
+    padding: 30px;
+}
+
+.paragraphWhoWeAre {
+    justify-content: center;
+}
+
 @keyframes cursor {50% {border-color: transparent}}
 
 footer {
     position: relative;
+    font-family: 'Josefin Sans', sans-serif;
     width: 100%;
 }
 
@@ -162,7 +133,7 @@ footer {
     align-items: baseline;
     background-color: #1B1B1B;
     color: #CCDAD1;
-    height: 180px;
+    height: 300px;
     padding-top: 50px;
 }
 
@@ -252,16 +223,4 @@ footer {
 
 /* RESPONSIVE DESIGN FROM 1330PX TO 1090PX */
 @media (max-width: 1330px) {
-        .navbar {
-            flex-direction: column;
-        }
-        .navbar img {
-            margin-left: 0px;
-        }
-        article {
-            margin-top: 140px;
-        }
-        #article_productos {
-            margin-top: 150px;
-        }
     }

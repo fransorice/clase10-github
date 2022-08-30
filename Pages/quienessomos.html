@@ -4,24 +4,43 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
     <link rel="stylesheet" href="../styles.css">
     <link rel="icon" href="./Media/Iconos/technohouse-logo.png">
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=PT+Serif&family=Roboto+Slab&display=swap" rel="stylesheet">
     <title>¿Quienes somos?</title>
 </head>
 <body>
-    <div class="container">
     <header>
         <!-- NAVBAR -->
-        <nav class="navbar">
-            <a href="#"><img src="../Media/Iconos/technohouse-removebg-preview.png" alt="" height="60px" width="140px"></a>
-            <ul class="navbar-ul">
-                <li><a href="../index.html">Inicio</a></li>
-                <li><a href="./productos.html">Productos</a></li>
-                <li><a href="#">¿Quienes somos?</a></li>
-                <li><a href="./faq.html">Preguntas frecuentes</a></li>
-                <li><a href="./contacto.html">Contactanos</a></li>
-            </ul>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark border-bottom border-light fixed-top">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="../index.html"><img src="../media/iconos/technohouse-removebg-preview.png" alt="technoicon" height="60px" width="140px"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-flex">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./faq.html">FaQ</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Más opciones
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="./productos.html">Productos</a></li>
+                      <li><a class="dropdown-item" href="#">¿Quienes somos?</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="./contacto.html">Contactanos</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div>
         </nav>
     </header>
     <main>
@@ -36,12 +55,14 @@
                     </div>
             </div>
             <!-- CONOCENOS MEJOR -->
-                <h2>Conocenos un poco mejor...</h2>
-                <p>
-                Somos TechnoHouse, un emprendimiento nacido durante la pandemia en el año 2020, dedicado a la venta de productos Apple de calidad original. <br> 
-                Podes encontrar todo lo que necesites para tu celular, fundas, auriculares, relojes digitales para el día a día, y hasta comprar equipos sellados traidos desde California. <br>
-                Actualmente no contamos con local físico, pero realizamos envíos a toda la Argentina mediante OCA, para que tu pedido llegue en tiempo y forma para que puedas disfrutarlo.
+            <h2 class="text-decoration-underline text-center p-3">Conocenos un poco mejor...</h2>
+            <div class="d-flex paragraphWhoWeAre">
+                <p class="fs-5 fw-semibold paragraphWhoWeAre__p">
+                    Somos TechnoHouse, un emprendimiento nacido durante la pandemia en el año 2020, dedicado a la venta de productos Apple de calidad original. <br> 
+                    Podes encontrar todo lo que necesites para tu celular, fundas, auriculares, relojes digitales para el día a día, y hasta comprar equipos sellados traidos desde California. <br>
+                    Actualmente no contamos con local físico, pero realizamos envíos a toda la Argentina mediante OCA, para que tu pedido llegue en tiempo y forma para que puedas disfrutarlo.
                 </p>
+            </div>
         </article>
     </main>
     <footer>
@@ -83,6 +104,6 @@
             </div>
         </div>        
     </footer>
-</div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
 </body>
 </html>
