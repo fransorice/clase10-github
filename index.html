@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="./css/style.css">
     <link rel="icon" href="./Media/Iconos/technohouse-logo.png">
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=PT+Serif&family=Roboto+Slab&display=swap" rel="stylesheet">
     <title>Menu principal</title>
@@ -55,24 +55,60 @@
                     </div>
             </div>
             <!-- ARTICULOS MAS VENDIDOS -->
-            <h2>LO MAS VENDIDO</h2>
-            <section>
-                <img src="./Media/Productos/airpods.jpg" alt="" width="300px" height="300px">
-                <figcaption><b>AirPods Pro</b></figcaption>
-                <img src="./Media/Productos/fundas iphone.jpg" alt="" width="300px" height="300px">
-                <figcaption><b>Fundas Silicona</b></figcaption>
-                <img src="./Media/Productos/iphone 11.png" alt="" width="300px" height="300px">
-                <figcaption><b>iPhone 11</b></figcaption>
-                <img src="./Media/Productos/iphone 13.png" alt="" width="300px" height="300px">
-                <figcaption><b>iPhone 13</b></figcaption> 
-            </section>
+            <h2 class="fw-bold text-center text-light p-5">LO MAS VENDIDO</h2>
+            <div class="container text-center p-5">
+              <div class="row">
+                  <div class="col-3"><div class="card" style="width: 18rem;">
+                      <img src="../media/productos/fundas iphone.jpg" class="card-img-top border" alt="fundas" height="338px">
+                      <div class="card-body">
+                        <h5 class="card-title fw-bold">Fundas Silicona</h5>
+                        <p class="card-text">Elige el color que más te guste, con estas nuevas fundas de silicona para evitar golpes.</p>
+                        <a class="fancy" href="#">
+                          <span class="top-key"></span>
+                          <span class="text">Comprar</span>
+                          <span class="bottom-key-1"></span>
+                          <span class="bottom-key-2"></span>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-3"><div class="card" style="width: 18rem;">
+                      <img src="../media/productos/iphone 11.png" class="card-img-top border" alt="iphone 11">
+                      <div class="card-body">
+                        <h5 class="card-title fw-bold">iPhone 11</h5>
+                        <p class="card-text">El modelo 11 de la línea de iPhone, una opción más económica que sus sucesores.</p>
+                        <a class="fancy" href="#">
+                          <span class="top-key"></span>
+                          <span class="text">Comprar</span>
+                          <span class="bottom-key-1"></span>
+                          <span class="bottom-key-2"></span>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-3"><div class="card" style="width: 18rem;">
+                      <img src="../media/productos/iphone 13.png" class="card-img-top border" alt="iphone 13">
+                      <div class="card-body">
+                        <h5 class="card-title fw-bold">iPhone 13</h5>
+                        <p class="card-text">El último modelo desarrollado por Apple, una excelente opción en general.</p>
+                        <a class="fancy" href="#">
+                          <span class="top-key"></span>
+                          <span class="text">Comprar</span>
+                          <span class="bottom-key-1"></span>
+                          <span class="bottom-key-2"></span>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+            </div>
         </article>
     </main>
     <footer>
             <!-- FOOTER -->
             <div class="footer">
                 <div class="footer__categories">
-                    <h4>Categorías</h4>
+                    <h4 class="fw-bold">Categorías</h4>
                     <a href="#">Inicio</a>
                     <a href="./Pages/productos.html">Productos</a>
                     <a href="./Pages/quienessomos.html">¿Quienes somos?</a>
@@ -80,30 +116,30 @@
                     <a href="./Pages/contacto.html">Contactanos</a>
                 </div>
                 <div class="footer__contact">
-                    <h4>Contactános</h4>
+                    <h4 class="fw-bold">Contactános</h4>
                     <h5>341-555-5273</h5>
                     <h5>fransorice1@gmail.com</h5>
                     <h5>Rosario, Santa Fe</h5>
                 </div> 
                 <div class="footer__social">
-                    <h4>Redes sociales</h4>
+                    <h4 class="fw-bold">Redes sociales</h4>
                     <div class="footer__social--icons">
-                        <a href="https://twitter.com/" target="_blank"><img src="./Media/Iconos/twitter.png" alt="" width="30px" height="30px"></a>            
-                        <a href="https://www.facebook.com/" target="_blank"><img src="./Media/Iconos/facebook.png" alt="" width="30px" height="30px"></a>          
-                        <a href="https://www.instagram.com/" target="_blank"><img src="./Media/Iconos/instagram.png" alt="" width="30px" height="30px"></a>
+                        <a href="https://twitter.com/" target="_blank"><img src="./Media/Iconos/twitter.png" alt="twitter" width="30px" height="30px"></a>            
+                        <a href="https://www.facebook.com/" target="_blank"><img src="./Media/Iconos/facebook.png" alt="facebook" width="30px" height="30px"></a>          
+                        <a href="https://www.instagram.com/" target="_blank"><img src="./Media/Iconos/instagram.png" alt="instagram" width="30px" height="30px"></a>
                     </div>
                 </div> 
             </div>
             <!-- METODOS DE PAGO -->
             <div class="payments">
-                <h4>Medios de pago</h4>
+                <h4 class="fw-bold">Medios de pago</h4>
                 <div class="payments__icons">
-                    <img src="./Media/Iconos/visa.png" alt="visa" width="30px" height="30px">
-                    <img src="./Media/Iconos/mastercard.png" alt="mastercard" width="35px" height="20px" id="mastercardIcon">
-                    <img src="./Media/Iconos/pago-en-efectivo.png" alt="efectivo" width="30px" height="23px" id="efectivoIcon">
-                    <img src="./Media/Iconos/bitcoin.png" alt="bitcoin" width="20px" height="19px" id="bitcoinIcon">
-                    <img src="./Media/Iconos/ethereum.png" alt="ethereum" width="22px" height="21px" id="ethereumIcon">
-                    <img src="./Media/Iconos/tether.png" alt="USDT" width="22px" height="19px" id="usdtIcon">
+                    <img src="./Media/Iconos/visa.png" alt="visa" width="50px" height="50px">
+                    <img src="./Media/Iconos/mastercard.png" alt="mastercard" width="55px" height="37px" id="mastercardIcon">
+                    <img src="./Media/Iconos/pago-en-efectivo.png" alt="efectivo" width="50px" height="40px" id="efectivoIcon">
+                    <img src="./Media/Iconos/bitcoin.png" alt="bitcoin" width="32px" height="32px" id="bitcoinIcon">
+                    <img src="./Media/Iconos/ethereum.png" alt="ethereum" width="37px" height="37px" id="ethereumIcon">
+                    <img src="./Media/Iconos/tether.png" alt="USDT" width="35px" height="35px" id="usdtIcon">
                 </div>
             </div>        
     </footer>

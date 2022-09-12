@@ -1,0 +1,34 @@
+header {
+    .bg-dark {
+        background: #111111 !important;
+    }
+
+    .navbar {
+        ul {
+            li {
+                a {
+                color: white;
+                font-size: 17px;
+                }
+            }
+        }
+        
+    }
+    
+    .navbar {
+        ul {
+            li {
+                a {
+                    &:hover {
+                        color: rgb(138, 138, 138) !important;
+                    }
+                }
+            }
+        }
+    } 
+    
+    .dropdown-menu {
+        background: #111111;
+        border: none;
+    }
+}

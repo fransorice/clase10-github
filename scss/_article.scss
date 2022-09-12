@@ -1,0 +1,216 @@
+.banner {
+    width: 100%;
+    height: 600px;
+    animation: banner 10s infinite linear alternate;
+    background-size: 100% 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@keyframes banner {
+    0%, 20% {
+        background-image: url(../media/background/banner1.jpg);
+    }
+    25%, 45% {
+        background-image: url(../Media/Background/banner2.jpg);
+    }
+    50%, 70% {
+        background-image: url(../Media/Background/banner3.jpg);
+    }
+    75%, 100% {
+        background-image: url(../Media/Background/banner4.jpg);
+    }
+}
+
+.accordion-item, .accordion-button {
+    background-color: #D8D0C1;
+}
+
+.contactForm {
+    flex-direction: column;
+    background-color: #D8D0C1;
+    width: 800px;
+    border-radius: 5px;
+    margin-left: 550px;
+    padding: 70px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+}
+
+.messageForm {
+    flex-direction: column;
+}
+
+.layer {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: black;
+    opacity: 0.6;
+}
+
+.info {
+    z-index: 1;
+    width: 100%;
+    max-width: 550px;
+    text-align: center;
+}
+
+.info h1 {
+    color: white;
+    font-size: 45px;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+
+.info p {
+    color: white;
+    line-height: 1.7;
+    height: 100px;
+    }
+
+.info a {
+    color: white;
+    text-decoration: none;
+    background: #3088e0;
+    padding: 16px 37px;
+    display: inline-block;
+    border-radius: 50px;
+    transition-duration: 0.3s;
+}
+
+.info a:hover {
+    background: #1c5a99;
+}
+
+.info span {
+    white-space: nowrap;
+    border-right: 3px solid rgb(255, 255, 255);
+    width: 12ch;
+    overflow: hidden;
+    font-size: 2.5rem;
+    color: #E0D3DE;
+    animation: cursor .8s infinite;
+}
+
+.paragraphWhoWeAre__p {
+    max-width: 75ch;
+    text-align: center;
+    padding: 30px;
+}
+
+.paragraphWhoWeAre {
+    justify-content: center;
+}
+
+@keyframes cursor {50% {border-color: transparent}}
+
+.fancy {
+    background-color: transparent;
+    border: 2px solid #000;
+    border-radius: 0;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    float: right;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    margin: 0;
+    margin-right: 50px;
+    outline: none;
+    overflow: visible;
+    padding: 1.25em 2em;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    text-transform: none;
+    transition: all 0.3s ease-in-out;
+    user-select: none;
+    font-size: 13px;
+   }
+   
+.fancy::before {
+    content: " ";
+    width: 1.5625rem;
+    height: 2px;
+    background: black;
+    top: 50%;
+    left: 1.5em;
+    position: absolute;
+    transform: translateY(-50%);
+    transform-origin: center;
+    transition: background 0.3s linear, width 0.3s linear;
+   }
+   
+.fancy .text {
+    font-size: 1.125em;
+    line-height: 1.33333em;
+    padding-left: 2em;
+    display: block;
+    text-align: left;
+    transition: all 0.3s ease-in-out;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+   }
+   
+.fancy .top-key {
+    height: 2px;
+    width: 1.5625rem;
+    top: -2px;
+    left: 0.625rem;
+    position: absolute;
+    background: #e8e8e8;
+    transition: width 0.5s ease-out, left 0.3s ease-out;
+   }
+   
+.fancy .bottom-key-1 {
+    height: 2px;
+    width: 1.5625rem;
+    right: 1.875rem;
+    bottom: -2px;
+    position: absolute;
+    background: #e8e8e8;
+    transition: width 0.5s ease-out, right 0.3s ease-out;
+   }
+   
+.fancy .bottom-key-2 {
+    height: 2px;
+    width: 0.625rem;
+    right: 0.625rem;
+    bottom: -2px;
+    position: absolute;
+    background: #e8e8e8;
+    transition: width 0.5s ease-out, right 0.3s ease-out;
+   }
+   
+.fancy:hover {
+    color: white;
+    background: black;
+   }
+   
+.fancy:hover::before {
+    width: 0.9375rem;
+    background: white;
+   }
+   
+.fancy:hover .text {
+    color: white;
+    padding-left: 1.5em;
+   }
+   
+.fancy:hover .top-key {
+    left: -2px;
+    width: 0px;
+   }
+   
+.fancy:hover .bottom-key-1, .fancy:hover .bottom-key-2 {
+    right: 0;
+    width: 0;
+   }

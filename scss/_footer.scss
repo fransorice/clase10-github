@@ -1,0 +1,94 @@
+.footer {
+    display: flex;
+    bottom: 0;
+    justify-content: space-around;
+    align-items: baseline;
+    background-color: #1B1B1B;
+    color: #CCDAD1;
+    height: 300px;
+    padding-top: 50px;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #CCDAD1;
+}
+
+.footer__categories {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.footer__categories a {
+    margin-top: 10px;
+}
+
+.footer__contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.footer__contact h5 {
+    margin-top: 10px;
+}
+
+.footer__social {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.footer__social img {
+    margin-top: 10px;
+}
+
+.footer__social--icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.payments {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 52px;
+    color: #CCDAD1;
+    background-color: #1B1B1B;
+    border-top: #D8D0C1 solid 2px;
+    justify-content: flex-start;
+}
+
+.payments h4 {
+    margin-left: 20px;
+}
+
+.payments__icons {
+    margin: 50px;
+}
+
+.payments__icons img {
+    padding: 5px;
+}
+
+#mastercardIcon {
+    margin-bottom: 5px;
+}
+
+#efectivoIcon {
+    margin-bottom: 4px;
+}
+
+#bitcoinIcon {
+    margin-bottom: 6px;
+}
+
+#ethereumIcon {
+    margin-bottom: 5px;
+}
+
+#usdtIcon {
+    margin-bottom: 6px;
+}
