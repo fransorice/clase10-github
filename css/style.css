@@ -118,7 +118,8 @@ header .dropdown-menu {
   padding: 30px; }
 
 .paragraphWhoWeAre {
-  justify-content: center; }
+  justify-content: center;
+  padding: 100px; }
 
 @keyframes cursor {
   50% {
