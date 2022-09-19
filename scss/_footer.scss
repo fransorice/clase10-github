@@ -43,6 +43,12 @@
 
 .footer__social img {
     margin-top: 10px;
+    transition-duration: 0.3s;
+}
+
+.footer__social img:hover {
+    width: 40px;
+    height: 40px;
 }
 
 .footer__social--icons {
@@ -55,7 +61,7 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    height: 52px;
+    height: 56px;
     color: #CCDAD1;
     background-color: #1B1B1B;
     border-top: #D8D0C1 solid 2px;
@@ -72,6 +78,10 @@
 
 .payments__icons img {
     padding: 5px;
+}
+
+#visaIcon {
+    margin-bottom: 7px;
 }
 
 #mastercardIcon {
@@ -91,5 +101,5 @@
 }
 
 #usdtIcon {
-    margin-bottom: 6px;
+    margin-bottom: 5px;
 }

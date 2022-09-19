@@ -1,0 +1,184 @@
+@media (max-width: 1055px) { 
+    .localMap {
+        width: 800px;
+    }
+}
+
+@media (max-width: 850px) { 
+    .localMap {
+        width: 600px;
+        height: 650px;
+    }
+}
+
+@media (max-width: 650px) { 
+    .localMap {
+        width: 550px;
+        height: 500px;
+    }
+}
+
+@media (max-width: 570px) { 
+    .localMap {
+        width: 470px;
+    }
+}
+
+@media(max-width: 556px) {
+    .footer__contact {
+        align-items: center;
+    }
+
+    .footer__categories {
+        align-items: center;
+    }
+
+    .payments__icons {
+        margin: 40px;
+    }
+}
+
+@media (max-width: 536px) {
+    .payments__icons {
+        margin: 30px;
+    }
+}
+
+@media (max-width: 515px) {
+    .payments__icons {
+        margin: 20px;
+    }
+}
+
+@media (max-width: 495px) {
+    .payments__icons {
+        margin: 10px;
+    }
+
+    .localMap {
+        width: 420px;
+        height: 480px;
+    }
+}
+
+@media (max-width: 474px) {
+    .footer__social--icons {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .payments__icons {
+        margin: 5px;
+    }
+
+    .footer__social {
+        align-items: center;
+        h4 {
+            text-align: center;
+        }
+    }
+
+    .footer__categories a {
+        text-align: center;
+    }
+}
+
+@media (max-width: 464px) {
+    .payments__icons {
+        margin: 0px;
+    }
+}
+
+@media (max-width: 464px) {
+    .payments {
+        height: 66px;
+    }
+}
+
+@media (max-width: 454px) {
+    #visaIcon {
+        width: 46px;
+        height: 46px;
+    }
+
+    #mastercardIcon {
+        width: 51px;
+        height: 33px;
+    }
+
+    #efectivoIcon {
+        width: 46px;
+        height: 36px;
+    }
+
+    #bitcoinIcon {
+        width: 33px;
+        height: 33px;
+    }
+
+    #ethereumIcon {
+        width: 33px;
+        height: 33px;
+    }
+
+    #usdtIcon {
+        width: 31px;
+        height: 31px;
+    }
+}
+
+@media (max-width: 435px) {
+    .localMap {
+        width: 380px;
+        height: 420px;
+    }
+
+    #visaIcon {
+        width: 43px;
+        height: 43px;
+    }
+
+    #mastercardIcon {
+        width: 48px;
+        height: 30px;
+    }
+
+    #efectivoIcon {
+        width: 43px;
+        height: 33px;
+    }
+
+    #bitcoinIcon {
+        width: 30px;
+        height: 30px;
+    }
+
+    #ethereumIcon {
+        width: 30px;
+        height: 30px;
+    }
+
+    #usdtIcon {
+        width: 29px;
+        height: 29px;
+    }
+}
+
+@media (max-width: 423px) {
+    .footer {
+        height: 330px;
+    }
+
+    .localMap {
+        width: 320px;
+        height: 360px;
+    }
+}
+
+@media (max-width: 382px) {
+    .footer {
+        width: 100%;
+    }
+}
+
