@@ -16,7 +16,7 @@
         width: 550px;
         height: 500px;
     }
-}
+}    
 
 @media (max-width: 570px) { 
     .localMap {
@@ -173,6 +173,42 @@
     .localMap {
         width: 320px;
         height: 360px;
+    }
+}
+
+@media (max-width: 417px) {
+    footer {
+        .payments {
+            height: 75px;
+            .payments__icons { 
+                #visaIcon {
+                    margin: 0px;
+                    padding: 0px;
+                }
+                #mastercardIcon {
+                    margin: 0px;
+                    padding: 0px;
+                }
+                #efectivoIcon {
+                    margin: 0px;
+                    padding: 0px;
+                }
+                #bitcoinIcon {
+                    margin: 0px;
+                    padding: 0px;
+                }
+                #ethereumIcon {
+                    margin: 0px;
+                    padding: 0px;
+                    width: 35px;
+                    height: 35px;
+                }
+                #usdtIcon {
+                    margin: 0px;
+                    padding: 0px;
+                }
+            }
+        }
     }
 }
 
